@@ -6,9 +6,14 @@ export default ({title, items}) => {
     <div>
       <h2>{title}</h2>
       <div className="movieRow--listarea">
+        <div className="movieRow--list">
         {items.results.length > 0 && items.results.map((item, key)=>(
-          <img src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} alt={item.original_titlr} />
-        ))}
+          <div className="movieRow--item">
+            <img src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} alt={item.original_titlr} />
+          </div>
+       ))}
+
+        </div>
       </div>
     </div>
   );
