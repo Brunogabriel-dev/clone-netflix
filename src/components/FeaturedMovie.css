@@ -9,5 +9,5 @@
 .featured--horizontal {
   width: inherit;
   height: inherit;
-  background: linear-gradient(to right, #111, transparent);
+  background: linear-gradient(to right, #111 30%, transparent 70%);
 }
