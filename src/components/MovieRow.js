@@ -6,9 +6,12 @@ export default ({title, items}) => {
     <div className="movieRow">
       <h2>{title}</h2>
       <div className="movieRow--left">
-        
+       <img src={``}/>
+
       </div>
       <div className="movieRow--right">
+        <img src={``}/>
+
         
       </div>
       <div className="movieRow--listarea">
